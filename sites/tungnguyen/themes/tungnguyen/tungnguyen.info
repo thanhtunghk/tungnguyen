@@ -1,0 +1,34 @@
+name = tungnguyen
+description = TungNguyen Theme
+core = 7.x
+version = 7.x.1.0
+
+stylesheets[screen][] = css/bootstrap.min.css
+stylesheets[screen][] = css/theme.css
+stylesheets[screen][] = css/bootstrap-reset.css
+stylesheets[screen][] = assets/font-awesome/css/font-awesome.css
+stylesheets[screen][] = css/flexslider.css
+stylesheets[screen][] = assets/bxslider/jquery.bxslider.css
+stylesheets[screen][] = css/animate.css
+stylesheets[screen][] = css/style.css
+stylesheets[screen][] = css/style-responsive.css
+stylesheets[screen][] = css/lightbox.css
+
+scripts[] = js/jquery.js
+scripts[] = js/bootstrap.min.js
+scripts[] = js/hover-dropdown.js
+scripts[] = js/jquery.flexslider.js
+scripts[] = assets/bxslider/jquery.bxslider.js
+scripts[] = js/jquery.easing.min.js
+scripts[] = js/link-hover.js
+scripts[] = js/common-scripts.js
+scripts[] = js/wow.min.js
+
+regions[bannerleft] = BannerLeft
+regions[sidebartitle] = Sidebartitle
+regions[sidebarcontent] = Sidebarcontent
+regions[sidebarfooter] = Sidebarfooter
+regions[content] = content
+regions[sidebarsearch] = Sidebarsearch
+regions[sidebarsubmenu] = Sidebarsubmenu
+regions[mainmenu] = MainMenu
